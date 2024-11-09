@@ -1,0 +1,23 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10%;
+  }
+  
+  .sideBarMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2vw;
+    margin-top: 10vh;
+  }
+  
+  .actionButtons {
+    display: inherit;
+  }
+
+  /* .popUpWindow {
+    Later the select dropdown will be hidden and pop up when you need to relegate/fire someone 
+    visibility: hidden;  
+  } */
