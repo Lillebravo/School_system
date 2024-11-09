@@ -15,6 +15,7 @@
   
   .actionButtons {
     display: inherit;
+    flex-direction: inherit;
   }
 
   /* .popUpWindow {
