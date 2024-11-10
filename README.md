@@ -1,2 +1,2 @@
 # School_system
-exercise that incorporates classes and objects to make an admin system for schools
+exercise that incorporates classes to make an admin system for schools
