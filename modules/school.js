@@ -39,8 +39,7 @@ export class School {
     const student = this.#students.get(studentName);
     if (!student) return null;
 
-    // Remove student from all subjects
-    student.subjects.forEach(subject => {
+    student.subjects.forEach((subject) => {
       subject.removeStudent(student);
     });
 
@@ -52,8 +51,7 @@ export class School {
     const teacher = this.#teachers.get(teacherName);
     if (!teacher) return null;
 
-    // Remove teacher from all subjects
-    teacher.subjects.forEach(subject => {
+    teacher.subjects.forEach((subject) => {
       subject.removeTeacher(teacher);
     });
 
